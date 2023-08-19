@@ -1,0 +1,53 @@
+.sec{
+    background-color: gainsboro;
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.bo{
+    margin: 60px;
+    color: black;
+    margin-top: 25px;
+}
+#in{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    
+}
+#fo{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    background-color: brown;
+    color: azure;
+    text-align: center;
+}
+
+.top{
+   padding: 20px;
+
+}
+.top input{
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+}
+.top button{
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 800; 
+    font-size: large;
+    font-style: italic;
+    border: none;
+}
+@media(max-width: 768px){
+   .sec{
+    width: 100%;
+   } 
+   
+   .bo{
+    margin: 0;
+   }
+}
